@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10703833687,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StartingSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Real device Scenario",
+        "description": "",
+        "id": ";real-device-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 197519279,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StartingSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94314148,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user launches the app",
+            "match": {
+              "location": "StartingSteps.launchMobile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28273933404,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user add records on real device",
+            "match": {
+              "location": "MobileHomePageSteps.addrealrecord()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@mobile"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "As a user\r\nI want to be able to add 5 new records\r\nSo that i can delete it",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "mobile.feature"
+  }
+]
